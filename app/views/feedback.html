@@ -1,0 +1,12 @@
+<div ng-model="message">
+    <p>
+        <label for="email">Email</label>
+        <input type="text" ng-model="message.email" name="email" class="form-control"/>
+    </p>
+    <p>
+        <label for="message">Message</label>
+        <textarea ng-model="message.text" name="message" class="form-control"/>
+    </p>
+</div>
+<input type="button" class="btn btn-primary" value="Post Feedback" ng-click="postFeedback()">
+

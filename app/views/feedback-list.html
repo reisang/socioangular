@@ -1,0 +1,5 @@
+<div class="nav" ng-repeat="message in feedbacks">
+       <a class="list-group-item"  ui-sref="listfeedback.message({index:$index})" ng-click="setSelected(message)">{{message.email}}</a>
+ </div>
+ <div ui-view>
+ </div>

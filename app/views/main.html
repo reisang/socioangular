@@ -1,0 +1,11 @@
+<input type="button" ng-click="getTweets()" class="btn btn-primary" value="Get Tweets">
+<div>
+
+    <ul class="list-group">
+        <li class="list-group-item" ng-repeat="tweet in tweets">{{tweet.text}}<a>{{tweets.source}}</a></li>
+    </ul>
+</div>
+
+<div class="footer">
+    <p></p>
+</div>
